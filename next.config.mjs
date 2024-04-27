@@ -8,7 +8,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   webpack: (config, options) => {
-    config.output.publicPath = isProduction ?  'https://mf1-tawny.vercel.app/_next/' : 'http://localhost:3005/_next/';
+    config.output.publicPath = isProduction ?  'https://structure-dusky.vercel.app/_next/' : 'http://localhost:3005/_next/';
     config.plugins.push(
       new NextFederationPlugin({
         name: "structure",
