@@ -18,7 +18,7 @@ const nextConfig = {
            './Footer': "./src/components/Footer.tsx",
         },
         remotes: {
-          cart: isProduction ?  'https://mf-cart.vercel.app/remoteEntry.js' : `cart@http://localhost:3009/remoteEntry.js`,
+          cart: isProduction ?  'cart@https://mf-cart.vercel.app/remoteEntry.js' : `cart@http://localhost:3009/remoteEntry.js`,
         },
         shared: {
           react: { singleton: true, requiredVersion: false },
