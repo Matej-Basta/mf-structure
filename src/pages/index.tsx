@@ -8,7 +8,7 @@ const divStyle = {
 export default function Home() {
   return (
     <>
-      <Header />
+      <Header/>
       <div style={divStyle}>Test</div>
       <Footer />
     </>
